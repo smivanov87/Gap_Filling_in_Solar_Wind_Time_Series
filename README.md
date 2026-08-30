@@ -1,5 +1,5 @@
 # Gap_Filling_in_Solar_Wind_Time_Series
-This repository contains the MATLAB code and supporting data used in the study “Gap Filling in Solar Wind Time Series.” The code provides the implementation used to investigate and evaluate methods for filling gaps in solar wind time series data.
+This repository contains the MATLAB code and supporting data used in the study “Gap Filling in Solar Wind Time Series”. The code provides the implementation used to investigate and evaluate methods for filling gaps in solar wind time series data.
 ##Requirements
 The code was developed and tested using:
 MATLAB R2024b
