@@ -1,14 +1,27 @@
 % Figure 1.
 % Data
 % OMNI
+OMNI_folder = fullfile(fileparts(pwd), 'Data');
+
+if ~isfolder(OMNI_folder)
+    % mkdir('Data');
+    mkdir(OMNI_folder);
+end
+
+if ~isfile(fullfile(OMNI_folder, 'omni2_all_years.dat'))
 url = 'https://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/omni2_all_years.dat';
-filename = 'omni2_all_years.dat';
+filename = strcat(OMNI_folder,'/omni2_all_years.dat');
 websave(filename, url);
-load omni2_all_years.dat -ascii;
-Tdate=datetime(omni2_all_years(1:end,1),month(omni2_all_years(1:end,2)),day(omni2_all_years(1:end,2)),omni2_all_years(1:end,3),0,0  );
+end
+load(strcat(OMNI_folder, '/omni2_all_years.dat'), '-ascii');
+
 % Hp60
-websave('Hp60.txt', 'https://kp.gfz.de/app/hpodata?startdate=1995-01-01&enddate=2025-06-02&format=Hp60_txt#hpo-data-download-207');
-load Hp60.txt -ascii;
+websave(strcat(OMNI_folder,'/Hp60.txt'), 'https://kp.gfz.de/app/hpodata?startdate=1995-01-01&enddate=2025-06-02&format=Hp60_txt#hpo-data-download-207');
+load (strcat(OMNI_folder, '/Hp60.txt'), '-ascii');
+
+% t2=find(Tdate(:)=='01-Jun-2025 23:00:00');
+% omni2_all_years=omni2_all_years(1:t2,:);
+Tdate=datetime(omni2_all_years(1:end,1),month(omni2_all_years(1:end,2)),day(omni2_all_years(1:end,2)),omni2_all_years(1:end,3),0,0  );
 
 
 % SpaceCrafts
