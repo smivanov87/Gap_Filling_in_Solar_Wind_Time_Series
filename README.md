@@ -41,5 +41,4 @@ https://github.com/smivanov87/Gap_Filling_in_Solar_Wind_Time_Series
 This project is distributed under the MIT License. See LICENSE for details.
 
 ## Contact
-For questions regarding the code or the methodology, please use the GitHub repository issue tracker or contact the corresponding author of the associated publication.
-
+For questions regarding the code or methodology, please contact the author.
