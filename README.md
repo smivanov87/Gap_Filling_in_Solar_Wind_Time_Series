@@ -42,3 +42,9 @@ This project is distributed under the MIT License. See LICENSE for details.
 
 ## Contact
 For questions regarding the code or methodology, please contact the author.
+
+## Acknowledgements
+SMI's and SJW's work at DIAS was supported by Taighde Éireann - Research Ireland award 18/FRL/6199 (S2)) to CMJ which includes an extension to fund Displaced Researchers.
+ARF's work at DIAS was supported by Taighde Éireann - Research Ireland Laureate Consolidator award SOLMEX to CMJ.
+The authors have no conflicts of interest to disclose.
+
