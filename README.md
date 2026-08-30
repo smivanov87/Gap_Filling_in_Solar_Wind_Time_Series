@@ -34,7 +34,7 @@ Because the external datasets may be updated by their providers, the downloaded 
 
 ## Citation
 If you use the code or data provided in this repository, please cite this repository:
-Ivanov, S. M. (2026). Gap Filling in Solar Wind Time Series. GitHub repository.
+Serhii M. Ivanov (2026). Gap Filling in Solar Wind Time Series. GitHub repository.
 https://github.com/smivanov87/Gap_Filling_in_Solar_Wind_Time_Series
 
 ## License
