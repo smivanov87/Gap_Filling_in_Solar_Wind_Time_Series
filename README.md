@@ -31,7 +31,7 @@ For example, the directories Figure_1, Figure_2, etc., contain the code used to 
 The repository is provided to facilitate reproducibility of the results presented in the associated study. The MATLAB scripts, together with the Hp60 and OMNI datasets, provide the basis for reproducing the analyses and evaluating the gap-filling methods.
 Because the external datasets may be updated by their providers, the downloaded data may differ from the versions originally used in the study. Where possible, the dataset versions and download dates should therefore be retained when reproducing the results.
 
-**Citation
+Citation
 If you use the code or data provided in this repository, please cite this repository:
 Ivanov, S. M. (2026). Gap Filling in Solar Wind Time Series. GitHub repository.
 https://github.com/smivanov87/Gap_Filling_in_Solar_Wind_Time_Series
