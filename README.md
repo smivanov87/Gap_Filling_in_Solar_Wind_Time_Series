@@ -51,4 +51,6 @@ For questions regarding the code or methodology, please contact the author.
 The authors have no conflicts of interest to disclose.
 
 ## Citation
-Ivanov, S. M., Jackman, C. M., Fogg, A. R., & Walker, S. J. (2026). Gap Filling in Solar Wind Time Series [Software]. 
+Ivanov, S. M., Jackman, C. M., Fogg, A. R., & Walker, S. J. (2026). Gap Filling in Solar Wind Time Series (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22181986 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22181986.svg)](https://doi.org/10.5281/zenodo.22181986)
+
