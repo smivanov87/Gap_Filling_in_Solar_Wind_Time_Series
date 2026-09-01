@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the information below."
+
+title: "Gap Filling in Solar Wind Time Series"
+type: software
+
+authors:
+  - family-names: "Ivanov"
+    given-names: "Serhii"
+    orcid: "https://orcid.org/0000-0002-4339-9192"
+  - family-names: "Jackman"
+    given-names: "C. M."
+  - family-names: "Fogg"
+    given-names: "A. R."
+  - family-names: "Walker"
+    given-names: "S. J."
+
+doi: "10.5281/zenodo.22181986"
+
+repository-code: "https://github.com/smivanov87/Gap_Filling_in_Solar_Wind_Time_Series"
+
+url: "https://doi.org/10.5281/zenodo.22181986"
+
+license: "MIT"
+
+abstract: >
+  MATLAB code accompanying the paper "Gap Filling in Solar Wind Time Series".
+  The software provides methods for gap filling in solar wind time series.
+
+keywords:
+  - "solar wind"
+  - "time series"
+  - "gap filling"
+  - "MATLAB"
+  - "space physics"
+
+version: "v1.0.0"
+date-released: "2026-08-31"
